@@ -1,0 +1,65 @@
+/* Home */
+.headingStyle {
+    background-color: #13A89E;    
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Navigation */
+ul.navBarStyle {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #00BCD4;
+}
+
+li.myListStyle {
+    float: left;    
+    margin-left: 10px;
+}
+
+.style {
+    display: block;
+    color: white;
+    padding: 12px 14px;
+}
+
+.active {
+    background-color: #13A89E;
+}
+
+.style:hover {
+    background-color: #13A89E;    
+    text-decoration: none;
+    color: white;
+    transition: ease-in-out 0.30s;
+}
+
+/*Signout*/
+.signOutStyle {
+    padding-top: 5px;
+    padding-bottom: 5px;   
+    padding-right: 10px;         
+    float: right;
+}
+
+/*Html Quiz Result*/
+.failStyle {
+    color: red;
+}
+/* .list-group-item {
+    margin-right: 35px;
+} */
+
+.congratsStyle {
+    color: lightgreen
+}
+
+/*Add Question*/
+.addQuestion1 {
+    visibility: visible;
+}
+
+.addQuestion2 {
+    visibility: hidden;
+}
